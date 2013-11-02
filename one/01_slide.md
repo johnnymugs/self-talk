@@ -16,3 +16,22 @@
 
 !SLIDE
 # Javascript is a unique language
+.notes There are a lot of things about Javascript that make it different from other languages.
+
+!SLIDE code
+# Slots
+``````
+@@@ Javascript
+record = {};
+record.artist = "Jim Carrol";
+record.title = "Catholic Boy";
+record.play = function(){
+  //...
+};
+``````
+
+!SLIDE
+# Functions are first class objects
+
+!SLIDE
+# Prototypes
