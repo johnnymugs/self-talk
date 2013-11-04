@@ -1,4 +1,6 @@
 !SLIDE
+<link rel="stylesheet" href="style.css" type="text/css"/>
+
 # Self Discovery:
 ## Looking for insight in JavaScript's esoteric roots
 
@@ -139,7 +141,7 @@ Xerox PARC -> Stanford -> Sun
 # Let's set the stage
 It is the 1980s and Smalltalk is king.
 
-!SLIDE
+!SLIDE fullpage
 <img src="img/bytebloon.jpg" />
 
 !SLIDE

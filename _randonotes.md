@@ -1,3 +1,11 @@
+#TODO
+- invoke crockford
+- invoke elliot
+- nice self walkthrough
+- maybe more about spiritual legacy
+- code examples in beginer are dumb and look like shit
+- block quotes need to be better
+
 # Self walk through
 
 # Smalltalk
