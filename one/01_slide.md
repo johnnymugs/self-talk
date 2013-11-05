@@ -243,10 +243,20 @@ Borning, 1986
 !SLIDE
 # Douglas Crockford
 .notes TODO!!!
+  Five years ago I wrote Classical Inheritance in JavaScript. It showed that JavaScript is a class-free, prototypal language, and that it has sufficient expressive power to simulate a classical system. My programming style has evolved since then, as any good programmer's should. I have learned to fully embrace prototypalism, and have liberated myself from the confines of the classical model.
+  http://javascript.crockford.com/prototypal.html
+  (from 2006)
+.notes 2006, yikes!
 
 !SLIDE
 # Eric Elliot
-.notes TODO!!!
+  Classical Inheritance Is Obsolete – How To Think In Prototypal OO
+  http://ericleads.com/2013/06/classical-inheritance-is-obsolete-how-to-think-in-prototypal-oo/
+
+!SLIDE
+# Eric Elliot
+  https://github.com/dilvie/stampit
+.notes (see, I'm not SO late to the game!)
 
 !SLIDE
 # Maybe I'm preaching to the choir
