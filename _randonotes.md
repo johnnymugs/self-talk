@@ -1,6 +1,7 @@
-#TODO
+#TODO -- immediate
 - code examples in beginer are dumb and look like shit
 - block quotes need to be better
+- see TODO!
 
 - nice self walkthrough
 - maybe more about spiritual legacy

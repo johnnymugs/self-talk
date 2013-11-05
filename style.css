@@ -5,3 +5,7 @@ body {
 #preso, .slide {
   box-shadow: none;
 }
+
+.code.content p, p.lefty {
+  text-align: left;
+}

@@ -1,4 +1,6 @@
 !SLIDE
+.notes queue up video
+.notes queue up Self
 <link rel="stylesheet" href="style.css" type="text/css"/>
 
 # Self Discovery:
@@ -21,8 +23,7 @@
 .notes There are a lot of things about JavaScript that make it different from other languages.
 
 !SLIDE code
-``````
-// objects are a collection of slots
+// Objects are a collection of slots
 
 record = {};
 record.artist = "Jim Carrol";
@@ -30,11 +31,9 @@ record.title = "Catholic Boy";
 record.play = function(){
   //...
 };
-``````
 
 !SLIDE code
-``````
-// Functions are first class objects
+// Functions are callable objects
 // with properties
 
 var someFunc = function woohoo() {
@@ -43,14 +42,11 @@ var someFunc = function woohoo() {
 someFunc.name; // woohoo
 someFunc.wat = 'What what';
 someFunc(); // 'What what'
-``````
 
-!SLIDE
-``````
+!SLIDE code
 // Inheritance through prototypes...
 
 // alert('fill me out!');
-``````
 
 !SLIDE
 # Every wonder where these ideas came from?
@@ -107,18 +103,18 @@ someFunc(); // 'What what'
 Self
 ====
 
-  `````
-  SELF is an object-oriented language for exploratory programming based on a small
-  number of simple and concrete ideas: prototypes, slots, and behavior. ((*Prototypes*)) combine inheritance
+  .lefty SELF is an object-oriented language for exploratory programming based on a small
+  number of simple and concrete ideas: prototypes, slots, and behavior. _Prototypes_ combine inheritance
   and instantiation to provide a framework that is simpler and more flexible than most object-oriented
-  languages. ((*Slots*)) unite variables and procedures into a single construct. This permits the inheritance
+  languages. _Slots_ unite variables and procedures into a single construct. This permits the inheritance
   hierarchy to take over the function of lexical scoping in conventional languages. Finally, because
-  SELF does not distinguish ((*state from behavior**)), it narrows the gaps between ordinary objects,
+  SELF does not distinguish _state from behavior_, it narrows the gaps between ordinary objects,
   procedures, and closures. SELF’s simplicity and expressiveness offer new insights into objectoriented
   computation.
-  ((*Emphasis mine*))
+
+  (_Emphasis mine_)
+
   Self: The Power of Simplicity, Ungar and Smith, 1991
-  `````
 
 .notes this is kinda like BAM! SELF
 .notes do you want to intro Borning et al more
@@ -126,8 +122,10 @@ Self
 
 !SLIDE
 # Self history in two minutes
-Borning -> Ungar and Smith
-Xerox PARC -> Stanford -> Sun
+Borning to Ungar and Smith
+Xerox PARC to Stanford to Sun
+
+.notes TODO!
 
 !SLIDE
 # Sounds familiar right?
@@ -173,24 +171,23 @@ Smalltalk
 .notes people are already noticing some problems with classical OOP
 
 !SLIDE
-Borning, 1986
-============
-  For an object to have a distinct message protocol, a separate class must be created for it.
-  (from A. Borning "Classes versus Prototypes in Object Oriented Languages")
+# For an object to have a distinct message protocol, a separate class must be created for it.
+
+  (from A. Borning "Classes versus Prototypes in Object Oriented Languages", 1986)
 
 .notes this is something we completely take for granted in Javascript with object literals
 .notes he goes on to talk about meta-classes and the difficulty this presents new learners
 .notes (maybe expand here)
 
 !SLIDE
-Borning, 1986
-=============
-  The emphasis on classes in the programmer's interface is at odds with the goal of interacting with the computer in a concrete way. (con't)
+# The emphasis on classes in the programmer's interface is at odds with the goal of interacting with the computer in a concrete way.
+
+  (Borning, continued)
 
 !SLIDE
-Borning, 1986
-=============
-  When designing a new object, one must first move to the abstract level of the class, write a class definition, then instantiate it and test it, rather than remaining at one leve, incrementally building an object.
+# When designing a new object, one must first move to the abstract level of the class, write a class definition, then instantiate it and test it, rather than remaining at one leve, incrementally building an object.
+
+  (Borning, continued)
 
 !SLIDE
 # Enter the 90s and Self
@@ -242,20 +239,22 @@ Borning, 1986
 
 !SLIDE
 # Douglas Crockford
-.notes TODO!!!
-  Five years ago I wrote Classical Inheritance in JavaScript. It showed that JavaScript is a class-free, prototypal language, and that it has sufficient expressive power to simulate a classical system. My programming style has evolved since then, as any good programmer's should. I have learned to fully embrace prototypalism, and have liberated myself from the confines of the classical model.
-  http://javascript.crockford.com/prototypal.html
-  (from 2006)
+  .lefty Five years ago I wrote Classical Inheritance in JavaScript. It showed that JavaScript is a class-free, prototypal language, and that it has sufficient expressive power to simulate a classical system. My programming style has evolved since then, as any good programmer's should. I have learned to fully embrace prototypalism, and have liberated myself from the confines of the classical model.
+
+  http://javascript.crockford.com/prototypal.html (from 2006)
+
 .notes 2006, yikes!
 
 !SLIDE
 # Eric Elliot
   Classical Inheritance Is Obsolete – How To Think In Prototypal OO
+
   http://ericleads.com/2013/06/classical-inheritance-is-obsolete-how-to-think-in-prototypal-oo/
 
 !SLIDE
 # Eric Elliot
   https://github.com/dilvie/stampit
+
 .notes (see, I'm not SO late to the game!)
 
 !SLIDE
