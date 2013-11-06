@@ -1,7 +1,21 @@
-#TODO -- immediate
+#TODO
 - code examples in beginer are dumb and look like shit
 - block quotes need to be better
 - see TODO!
+- Self was trying to re-conceive the way that programming was done,
+- Self's approach to this end was to give programmers more atomic objects and encourage experimentation
+- JavaScript can/does carry on that legacy
+- timelines!
+- explain eigen class, more gripes about classes
+- js history: Eich and the browser wars
+- AJAX "rescuing" JS
+- break up blocks of text, don't read
+- Crockford and JSON
+- how far has JS come? remember how insane Google Maps was when it came out? Before that people were just doing flash-esque menus etc
+- Coders @ Work, 2000s + AJAX
+- functions really are special in JS
+- Atwood's law
+- Chinese Rip van Winkle
 
 - nice self walkthrough
 - maybe more about spiritual legacy
