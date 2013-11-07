@@ -121,13 +121,6 @@ Self
 .notes or is this a good transition?
 
 !SLIDE
-# Self history in two minutes
-Borning to Ungar and Smith
-Xerox PARC to Stanford to Sun
-
-.notes TODO!
-
-!SLIDE
 # Sounds familiar right?
 
 !SLIDE
@@ -171,7 +164,7 @@ Smalltalk
 .notes people are already noticing some problems with classical OOP
 
 !SLIDE
-# For an object to have a distinct message protocol, a separate class must be created for it.
+# When designing a new object, one must first move to the abstract level of the class, write a class definition, then instantiate it and test it, rather than remaining at one leve, incrementally building an object.
 
   (from A. Borning "Classes versus Prototypes in Object Oriented Languages", 1986)
 
@@ -185,7 +178,7 @@ Smalltalk
   (Borning, continued)
 
 !SLIDE
-# When designing a new object, one must first move to the abstract level of the class, write a class definition, then instantiate it and test it, rather than remaining at one leve, incrementally building an object.
+# For an object to have a distinct message protocol, a separate class must be created for it.
 
   (Borning, continued)
 
@@ -239,11 +232,19 @@ Smalltalk
 
 !SLIDE
 # Douglas Crockford
+  <img src="img/crockford_lrg.jpg" />
+
+!SLIDE
+# Douglas Crockford
   .lefty Five years ago I wrote Classical Inheritance in JavaScript. It showed that JavaScript is a class-free, prototypal language, and that it has sufficient expressive power to simulate a classical system. My programming style has evolved since then, as any good programmer's should. I have learned to fully embrace prototypalism, and have liberated myself from the confines of the classical model.
 
   http://javascript.crockford.com/prototypal.html (from 2006)
 
 .notes 2006, yikes!
+
+!SLIDE
+# Eric Elliot
+  <img src="img/elliot_rc_lrg.jpg" />
 
 !SLIDE
 # Eric Elliot
