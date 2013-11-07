@@ -1,4 +1,5 @@
 #TODO
+- spelling errors!
 - code examples in beginer are dumb and look like shit
 - block quotes need to be better
 - see TODO!

@@ -11,12 +11,33 @@
 - Jonathan Mukai-Heidt
 - Senior Software Engineer at PINCHme
 - @johnnymukai / johnnymukai@gmail.com
-- terrible JavaScript programmer
+- Terrible JavaScript programmer
+
+!SLIDE
+.notes TODO
+I'm really excited to be here today.
+I started programming JavaScript back in 1997 or 1998.
+To be honest, I went through a period where I was just doing a lot of back-end work
+So I feel a lot like Rip van Winkle.
+It's difficult to express just how astoundingly far JavaScript has come.
+
+A lot of the people in this room may not remember but back in the 90s we were writing exceptionally simple
+DOM manipulations in JS and that was *it*
 
 !SLIDE
 # Self
 .notes brief five second intro to self
 .notes it influenced JS and its interesting
+Today I'd like to talk about a pretty special programming language called Self.
+.notes say it in one sentence
+I've noticed that in academic cirlces, especially those concerned with language development, it's very well known but in your work-a-day programmer circles it's almost unheard of.
+But the reason I'm interested in Self is because of its influence on JavaScript.
+
+!SLIDE
+What are we going to talk about today?
+So it's a bit of a history lesson.
+But there are lessons in here about our contemporary use of JavaScript as well.
+And even more than that I hope to inspire some curiosity about some big ideas of the past that are still very relevant today.
 
 !SLIDE
 # JavaScript is a unique language
