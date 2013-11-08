@@ -14,30 +14,34 @@
 - Terrible JavaScript programmer
 
 !SLIDE
-.notes TODO
-I'm really excited to be here today.
-I started programming JavaScript back in 1997 or 1998.
-To be honest, I went through a period where I was just doing a lot of back-end work
-So I feel a lot like Rip van Winkle.
-It's difficult to express just how astoundingly far JavaScript has come.
-
-A lot of the people in this room may not remember but back in the 90s we were writing exceptionally simple
+I'm kidding a little about being a terrible JavaScript programmer, but someties I'm really blown away by JavaScript.
+I'm really excited to be giving this presentation here in Beijing.
+I started programming JavaScript back in 1998 or 1999.
+Back then, JavaScript was this little thing you would use to make a menu pop up or annoyingly move parts of the DOM around.
+TODO: (pick) A lot of the people in this room may not remember but back in the 90s we were writing exceptionally simple
 DOM manipulations in JS and that was *it*
+It was legendarily implemented in an exceptionally short time, and people really thought it would go the way of the buffalo.
+They thought that Java in the browser or Flash was the way things were going.
+I remember when Google started using AJAX in search results and it blew my mind.
+
+That was back in the late 90s, early 2000s. Now I have reason to be blown away again.
+I went through a period where I wasn't programming any front-end stuff or I was writing very little of it anyway.
+In the past three years or so I've gotten back into it and I can't believe how far the community and the libraries have come -- to make no mention of node.
+I tell people I feel like Rip van Winkle. Or maybe a more appropriate story is Rinkan
+TODO: look that shit up
+I went up into the mountains and now that I've come back down, JavaScript has taken over!
+TODO(cut?) It's difficult to express just how astoundingly far JavaScript has come.
 
 !SLIDE
-# Self
-.notes brief five second intro to self
-.notes it influenced JS and its interesting
-Today I'd like to talk about a pretty special programming language called Self.
-.notes say it in one sentence
-I've noticed that in academic cirlces, especially those concerned with language development, it's very well known but in your work-a-day programmer circles it's almost unheard of.
-But the reason I'm interested in Self is because of its influence on JavaScript.
+Anyway, I hope the reason for bringing up my own backstory will make sense in a minute.
+What I'd like to do today is give you all a bit of a history lesson.
 
 !SLIDE
 What are we going to talk about today?
 So it's a bit of a history lesson.
 But there are lessons in here about our contemporary use of JavaScript as well.
 And even more than that I hope to inspire some curiosity about some big ideas of the past that are still very relevant today.
+TODO! Here is where you talk about aims of the talk
 
 !SLIDE
 # JavaScript is a unique language
@@ -68,6 +72,7 @@ someFunc(); // 'What what'
 // Inheritance through prototypes...
 
 // alert('fill me out!');
+TODO!(see 3 types of prototypal OO)
 
 !SLIDE
 # Every wonder where these ideas came from?
