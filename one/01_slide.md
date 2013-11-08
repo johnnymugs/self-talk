@@ -1,6 +1,6 @@
 !SLIDE
 .notes queue up video
-.notes queue up Self
+.notes queue up Self w/ Demo snapshot
 <link rel="stylesheet" href="style.css" type="text/css"/>
 
 # Self Discovery:
@@ -33,7 +33,7 @@ I went up into the mountains and now that I've come back down, JavaScript has ta
 TODO(cut?) It's difficult to express just how astoundingly far JavaScript has come.
 
 !SLIDE
-Anyway, I hope the reason for bringing up my own backstory will make sense in a minute.
+Anyway, I hope the reason for bringing up my own rambling backstory will make sense in a minute.
 What I'd like to do today is give you all a bit of a history lesson.
 
 !SLIDE
@@ -42,7 +42,15 @@ So it's a bit of a history lesson.
 But there are lessons in here about our contemporary use of JavaScript as well.
 And even more than that I hope to inspire some curiosity about some big ideas of the past that are still very relevant today.
 TODO! Here is where you talk about aims of the talk
+There's a lot of fascinating history here.
+But there's also a lot of lessons to be learned from Self.
 
+<<<<<<< HEAD
+=======
+!SLIDE
+So how did I come to be interested in Self?
+
+>>>>>>> waaat
 !SLIDE
 # JavaScript is a unique language
 .notes There are a lot of things about JavaScript that make it different from other languages.
@@ -57,16 +65,34 @@ record.play = function(){
   //...
 };
 
+.notes we can just add these slots on at will and they can hold both values and functions.
+
 !SLIDE code
 // Functions are callable objects
 // with properties
 
-var someFunc = function woohoo() {
-  return woohoo.wat;
+var timesCalled = function timesCalled(){
+  times.calls = times.calls || 0;
+  times.calls++;
+  return times.calls;
 };
-someFunc.name; // woohoo
-someFunc.wat = 'What what';
-someFunc(); // 'What what'
+
+timesCalled() // => 1
+timesCalled() // => 2
+
+// (a bad example but it serves my purposes)
+
+!SLIDE
+// Functions really are special in JS
+// Just look at jQuery AJAX callbacks
+$.ajax({
+  success: function() {
+    alert("Great success!");
+  },
+  failure: function(){
+    alert("Oh noes!");
+  }
+})
 
 !SLIDE code
 // Inheritance through prototypes...
@@ -82,6 +108,7 @@ TODO!(see 3 types of prototypal OO)
 
 !SLIDE
 # Start at the beginning
+TODO! tighten this up
 .notes this slide needs work
 .notes Noticing CofffeeScript
 .notes workarounds for classes in CoffeeScript
@@ -120,12 +147,10 @@ TODO!(see 3 types of prototypal OO)
 .notes It was meant to be the successor to Smalltalk, the next big OOP thing.
 
 !SLIDE
-# Java?
+TODO: talk more about Java in the browser and browser wars etc
 
 !SLIDE
-# NO!
-
-!SLIDE
+TODO: break this up
 Self
 ====
 
@@ -335,3 +360,40 @@ Smalltalk
 !SLIDE
 # Thanks!
 # 謝謝
+
+TODO: verify this and stick it in somewhere
+Think about Atwood's law. "Whatever can be done in JavaScript will be done."
+David Ungar gave a great talk in 2009 after he received the TODO award for his work on Self.
+It's a great talk to watch, you can see it on Stanford's YouTube page.
+The whole talk is full of great quotes but two really stick out to me.
+
+!SLIDE
+"If you're going to be creative and innovative, you can't be serious."
+
+!SLIDE
+"With great people, you can do anything! Don't waste them on the possible!"
+
+This is why I think JavaScript is so fun, it's why Atwood's law is so funny and so true
+JavaScript's flexibility, combined with its ubiquity somehow drives people to do incredible things.
+(Some of them more practical than others)
+
+TODO scour notes from your three new sources and incorporate them
+
+!SLIDE
+TODO
+# Eigenclass/Metaclass
+Some people may not be familiar with this concept but basically in any kind of OOP language where everything is an object, by necessity,
+classes need this funny thing called an Eigen class
+Because classes are this special kind of object that can instantiate another object based on its own properties,
+you need this special kind of indirection or abstraction.
+Programmers used to this kind of OOP have a hard time seeing why this is problematic,
+but if you ever teach beginners, you quickly see that this indirection has leaks.
+It's a cognitive load that we get used to carrying around, how classes work, that is.
+We get used to it but try explaining it to a beginner and you'll quickly see how much of it you are burdening yourself with.
+
+!SLIDE
+TODO
+# Cognitive burden
+This is another thing that Ungar returns to again and again in papers and talks.
+There is just a lot of cognitive overhead when you're dealing with classes and you're immediately dealing with
+some indirection from the object at hand.
