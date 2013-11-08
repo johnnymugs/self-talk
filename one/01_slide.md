@@ -14,7 +14,7 @@
 - Terrible JavaScript programmer
 
 !SLIDE
-I'm kidding a little about being a terrible JavaScript programmer, but someties I'm really blown away by JavaScript.
+I'm kidding a little about being a terrible JavaScript programmer, but sometimes I'm really blown away by JavaScript.
 I'm really excited to be giving this presentation here in Beijing.
 I started programming JavaScript back in 1998 or 1999.
 Back then, JavaScript was this little thing you would use to make a menu pop up or annoyingly move parts of the DOM around.
@@ -37,20 +37,31 @@ Anyway, I hope the reason for bringing up my own rambling backstory will make se
 What I'd like to do today is give you all a bit of a history lesson.
 
 !SLIDE
+TODO! this is a candidate slide I guess
 What are we going to talk about today?
 So it's a bit of a history lesson.
 But there are lessons in here about our contemporary use of JavaScript as well.
 And even more than that I hope to inspire some curiosity about some big ideas of the past that are still very relevant today.
 TODO! Here is where you talk about aims of the talk
 There's a lot of fascinating history here.
-But there's also a lot of lessons to be learned from Self.
 
-<<<<<<< HEAD
-=======
+# Self
+.notes brief five second intro to self
+.notes it influenced JS and its interesting
+What I'd like to talk about today is Self.
+Self was and still is an ambitious and wholly unique language that had a very strong influence on JavaScript.
+
+!SLIDE
+TODO: aims of the talk
+There's a lot of fascinating history here, which I think is interesting enough to warrant a talk on its own.
+But there's also a lot of lessons to be learned from Self.
+I hope that after this talk you'll be able walk away not just with a greater sense of JavaScript's place in programming history,
+but also with some practical lessons.
+And most importantly, a little inspiration.
+
 !SLIDE
 So how did I come to be interested in Self?
 
->>>>>>> waaat
 !SLIDE
 # JavaScript is a unique language
 .notes There are a lot of things about JavaScript that make it different from other languages.
@@ -65,7 +76,7 @@ record.play = function(){
   //...
 };
 
-.notes we can just add these slots on at will and they can hold both values and functions.
+.notes we can just add these slots on at will, and they can hold both values and functions.
 
 !SLIDE code
 // Functions are callable objects
@@ -80,7 +91,7 @@ var timesCalled = function timesCalled(){
 timesCalled() // => 1
 timesCalled() // => 2
 
-// (a bad example but it serves my purposes)
+// (a poor example but it serves my purposes)
 
 !SLIDE
 // Functions really are special in JS
@@ -105,14 +116,15 @@ TODO!(see 3 types of prototypal OO)
 
 !SLIDE
 # I wondered!
+A few years ago when I got back into doing web work, I was and still am mostly doing Rails.
+This was when Coffeescript was brand new and it was big news that it had been pulled into Rails as a default.
+Now this surprised me because even though I think Coffeescript is cool, in all this discussion about it people were really harping on Javascript.
+When people griped about JavaScript back in the early 2000s, they were just misguided, I thought.
+They hadn't seen what you could do in the browser with AJAX.
 
 !SLIDE
-# Start at the beginning
-TODO! tighten this up
-.notes this slide needs work
-.notes Noticing CofffeeScript
-.notes workarounds for classes in CoffeeScript
-.notes lots of griping among colleagues about how terrible JavaScript is (because of inheritance)
+But now the arguments I'm hearing about JavaScript are about its strange inheritance mechanisms.
+I'm noticing a big thing that people are pushing in Coffeescript is this class wrapper it gives you on top of native JS inheritance.
 
 !SLIDE
 # However!
@@ -120,9 +132,15 @@ TODO! tighten this up
 .notes JavaScript is pretty fun.
 .notes Deep down I know Mr. Eich must be a pretty smart guy, because for all its warts, there's something about JavaScript
 .notes that I just can't put my finger on that makes it really fun.
+TODO: And you must remember, it's true that JavaScript was initially written in a shockingly short period of time, but
+Brendan Eich was doing 
+
+!SLIDE
+So I started looking into JavaScript's influences.
 
 !SLIDE
 # FP and Scheme
+I found that Scheme's influence had gotten a lot of attention lately.
 .notes this influece has gotten a lot of attention
 .notes at least in the circles I'm familiar with
 
@@ -139,11 +157,12 @@ TODO! tighten this up
 !SLIDE
 # Where from?
 .notes where did those features mentioned earlier come from?
+I wanted to know where these ideas came from.
 
 !SLIDE
 # Another influential language
 .notes besides Scheme
-.notes As Eich was working on LiveScript, soon to be called Javascript another programming language was making waves.
+.notes As Eich was working on LiveScript, soon to be called JavaScript another programming language was making waves.
 .notes It was meant to be the successor to Smalltalk, the next big OOP thing.
 
 !SLIDE
@@ -232,6 +251,9 @@ Smalltalk
 # For an object to have a distinct message protocol, a separate class must be created for it.
 
   (Borning, continued)
+
+TODO: talk about Eigenclass
+TODO: talk for real about the issue of Singletons
 
 !SLIDE
 # Enter the 90s and Self
@@ -397,3 +419,26 @@ TODO
 This is another thing that Ungar returns to again and again in papers and talks.
 There is just a lot of cognitive overhead when you're dealing with classes and you're immediately dealing with
 some indirection from the object at hand.
+
+!SLIDE
+The thing you have to remember about Self was that these guys weren't just trying to make programming easier.
+They were trying to change what programming was.
+And they didn't stop to think, "well, this is difficult or this is impractical."
+They dreamed up the world they wanted and they built it.
+
+!SLIDE
+There are a ton of technical innovations that came from Self.
+There's far more than I can get into here, but just a few:
+TODO: list from notes
+
+!SLIDE
+It has to do with prototypes, but a core contribution to JavaScript and the programming world at large that Self gave us
+was this spirit of experimentation and creativity and innovation.
+
+!SLIDE
+TODO
+If you walk away from this talk with one thing, I want it to not have anything to do with prototypes
+Rather I want you to walk away wowed by the fact that people have been quietly kicking ass for decades.
+
+TODO: It's a little unfair to even call Self esoteric, in some cirlces it's huge!
+TODO: Ungar quote from talk "there's nothing like it even today"
