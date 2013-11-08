@@ -385,7 +385,8 @@ TODO: talk for real about the issue of Singletons
 
 TODO: verify this and stick it in somewhere
 Think about Atwood's law. "Whatever can be done in JavaScript will be done."
-David Ungar gave a great talk in 2009 after he received the TODO award for his work on Self.
+"Atwood's Law: any application that can be written in JavaScript, will eventually be written in JavaScript."
+David Ungar gave a great talk in 2009 after he received the Dahl-Nygaard award for his work on Self.
 It's a great talk to watch, you can see it on Stanford's YouTube page.
 The whole talk is full of great quotes but two really stick out to me.
 
@@ -442,3 +443,5 @@ Rather I want you to walk away wowed by the fact that people have been quietly k
 
 TODO: It's a little unfair to even call Self esoteric, in some cirlces it's huge!
 TODO: Ungar quote from talk "there's nothing like it even today"
+
+TODO: Missing Alternative Reality Kit
